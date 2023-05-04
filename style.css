@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("biblio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 800px;
+}
+.titulo{
+    color: green;
+    font-size: 2rem;
+}
+input{
+    height: 50px;
+    border-radius: 25px;
+}
+.butao{
+    background-color: green;
+    color: white;
+    font-size: 1.1em;
+}
+.formas{
+    display: flex;
+    justify-content: space-between;
+}
+.inp{
+    padding-left: 10px;
+}
+form:hover{
+    transition: all .5s;
+    box-shadow: 10px 10px 15px black;
+}
+.ch{
+    display: flex;
+    accent-color: green;
+}
+.check{
+    height: 20px;
+}
+label{
+    text-align: left;
+}
